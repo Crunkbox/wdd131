@@ -1,0 +1,44 @@
+body {
+    background-color: lightgray;
+}
+#content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px 40px 40px 40px;
+    border: 2px solid gray;       
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-color: lightgray;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+p {
+    color:blue;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    background-color:blue;
+    max-width: 600px;
+    height: 5px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;        
+    height: auto;
+}
+#topics {
+    text-align: center;
+}
+.list {
+    list-style: none;   
+    padding: 0;         
+    margin: 0 auto;     
+    text-align: left;   
+    max-width: 400px;   
+}
