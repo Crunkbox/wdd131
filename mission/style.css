@@ -1,0 +1,34 @@
+#content {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+}
+h1 {
+    letter-spacing: 2px;
+}
+.subheader {
+    color: blue;
+    letter-spacing: 2px;
+}
+#border {
+    background-color: lightgrey;
+    height: 2px;
+
+}
+#topics p {
+    text-align: left;
+}
+.italics {
+    text-align: left;
+    font-style: italic;
+}
+.list {
+    text-align: left;
+}
+li {
+    margin-bottom: 20px;
+}
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
