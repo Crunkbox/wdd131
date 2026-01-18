@@ -18,6 +18,7 @@ function changeTheme() {
     } else if (current === 'light') { 
         document.body.style.backgroundColor = 'white';
         document.querySelector('h1').style.color = 'black';
+        document.querySelector('.subheader').style.color = 'blue'
 
         document.querySelectorAll('p:not(.subheader), li').forEach(el => {
             el.style.color = 'black';
