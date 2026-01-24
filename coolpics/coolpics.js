@@ -4,11 +4,11 @@ const fullNavHTML = nav.innerHTML;
 function updateNav()
 {
     if (window.innerWidth < 700) {
-        nav.innerHTML = "Menu";
-        nav.style.cursor = "pointer";
+        menuLabel.innerHTML = "Menu";
+        menuLabel.style.cursor = "pointer";
     } else {
-        nav.innerHTML = fullNavHTML;
-        nav.style.cursor = "default";
+        menuLabel.innerHTML = fullNavHTML;
+        menuLabel.style.cursor = "default";
     }
 }
 
