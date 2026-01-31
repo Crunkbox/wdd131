@@ -27,11 +27,7 @@ section {
     text-align: center;
 }
 .menu-hide {
-    padding: 20px;
-    color: black;
     display: none;
-    text-decoration: none;
-    border-top: 1px solid gray;
 }
 nav {
     text-align: center;
@@ -63,9 +59,7 @@ nav a {
 footer {
     text-align: center;
 }
-.hide {
-    display: none;
-}
+
 .change .bar1 {
   transform: translate(0, 10.5px) rotate(-45deg);
 }
