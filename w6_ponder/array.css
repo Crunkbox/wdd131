@@ -1,0 +1,13 @@
+.student {
+    text-align: center;
+    margin: 1.5rem 0;
+}  
+.student p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+.student hr {
+    width: 100%;
+    margin: 0.5rem;
+}
