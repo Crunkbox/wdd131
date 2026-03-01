@@ -1,0 +1,86 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    height: 100vh;
+}
+body > * {
+    max-width: 350px;
+}
+#courseLogo,
+table,
+button {
+    width: 350px;
+    margin: 0 auto;
+}
+.card {
+    background-color: #2e2e2e;
+    width: 350px;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: white;
+}
+body > div {
+    background-color: #2e2e2e;
+    width: 310px;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    color: white;
+}
+#courseLogo {
+    display: block;
+    border-radius: 15px 15px 0 0;
+    height: 350px;
+}
+h1 {
+    background-color: #2e2e2e;
+    width: 330px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+table {
+    width: 300px;
+    border-collapse: collapse;
+    background-color:#2e2e2e;
+    color: white;
+}
+thead tr {
+    display: flex;
+    flex-direction: column;
+}
+th {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #2e2e2e;
+}
+td {
+    text-align: left;
+}
+button {
+    width: 100px;
+    margin: 10px 5px 0 5px;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.attacked {
+    background-color: crimson;
+    color: white;
+}
+.level-up {
+    background-color: seagreen;
+    color: white;
+}
+button:hover {
+    opacity: 0.85;
+}
