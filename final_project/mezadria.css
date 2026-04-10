@@ -80,12 +80,22 @@ header {
     text-align: center;
     max-width: 800px;
     margin: auto;
+    color: #957031;
+
 }
 
 .filter-section {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
     padding: 1rem;
+}
+
+label {
+    color: #957031;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 #filter {

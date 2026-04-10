@@ -29,7 +29,10 @@ function renderCharacters(list) {
     list.forEach(character => {
         const clone = template.content.cloneNode(true);
 
-        clone.querySelector("img").src = character.image;
+        const img = clone.querySelector("img");
+        img.src = character.image;
+        img.alt = character.alt
+
         clone.querySelector(".name").textContent = character.name;
         clone.querySelector(".age").textContent = character.age;
         clone.querySelector(".class").textContent = character.class;
@@ -54,7 +57,4 @@ function filterCharacters() {
 }
 
 filter.addEventListener("change", filterCharacters);
-
-populateFilter();
-renderCharacters(characters);
 
