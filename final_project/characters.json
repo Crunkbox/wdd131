@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Herald Simmons",
+        "age": "18?",
+        "class": "Primal Hunter/Artificer",
+        "background": "A boy who has stumbled into great power.",
+        "image": "images/Herald_Simmons.png"
+    },
+    {
+        "name": "Melf Zoou",
+        "age": "???",
+        "class": "Merchant",
+        "background": "An eccentric merchant who will talk your ear off.",
+        "image": "images/Melf_Zoou.png"
+    },
+    {
+        "name": "Tofu Boi",
+        "age": "N/A",
+        "class": "Tofu",
+        "background": "He'll lick your little piggies clean.",
+        "image": "images/Tofu_Boi.png"
+    }
+]

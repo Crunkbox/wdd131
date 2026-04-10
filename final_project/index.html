@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mezadria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mezadria.css">
+    <script src="mezadria.js" defer></script>
+    <meta name="author" content="Thomas Meyers">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/Melf_Zoou_Logo.png" alt="Melf Zoou, Blueberry Man">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <img src="images/Eltvin_Countries_hand-drawn_239_ED.png">
+            <div class="hero-overlay">
+                <h1>Welcome to Mezadria</h1>
+            </div>
+        </section>
+
+        <section class="desc">
+            <p>
+                Sample text
+            </p>
+        </section>
+
+        <section class="filter-section">
+            <select id="filter">
+                <option value="">Filter by Name</option>
+            </select>
+        </section>
+
+        <section id="results">
+            <div class="card">
+                <div class="card-top">
+                    <img src="images/Melf_Zoou.png" alt="Melf Zoou">
+
+                    <div class="card-info">
+                        <p><strong>Name:</strong> <span class="name"></span></p>
+                        <p><strong>Age:</strong> <span class="age"></span></p>
+                        <p><strong>Class:</strong> <span class="class"></span></p>
+                    </div>
+                </div>
+
+                <div class="card-bottom">
+                    <p class="background"></p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- The JS uses the following character card for injection -->
+         <template id="card-template">
+            <div class="card">
+                <div class="card-top">
+                    <img src="" alt="Character Image">
+
+                    <div class="card-info">
+                        <p><strong>Name:</strong> <span class="name"></span></p>
+                        <p><strong>Age:</strong> <span class="age"></span></p>
+                        <p><strong>Class:</strong> <span class="class"></span></p>
+                    </div>
+                </div>
+
+                <div class="card-bottom">
+                    <p class="background"></p>
+                </div>
+            </div>
+        </template>
+    </main>
+    <footer>
+        <p>ALL HAIL THE MIGHTY DAVID</p>
+    </footer>
+</body>
+</html>
