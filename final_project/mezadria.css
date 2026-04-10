@@ -34,7 +34,7 @@ header {
 }
 
 .nav-links a {
-    color: #957031;
+    color: #e0fcff;
     text-decoration: none;
     font-weight: bold;
     font-family: 'EB Garamond', serif;
@@ -134,7 +134,7 @@ label {
 
 .card-info p {
     margin-bottom: 0.5rem;
-    color: #d9ceeb;
+    color: #e0fcff;
 }
 
 
@@ -144,7 +144,7 @@ label {
 
 .background {
     font-style: italic;
-    color: #d9ceeb;
+    color: #e0fcff;
 }
 
 footer {
